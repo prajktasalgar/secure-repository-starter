@@ -43,4 +43,4 @@ jobs:
         run: pytest -q
 
       - name: Scan for exposed secrets
-        uses: gitleaks/gitleaks-action@v2
+        uses: gitleaks/gitleaks-action@v3
